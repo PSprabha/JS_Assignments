@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(190, 190, 190);
+    max-width: 800px;
+    padding: 32px;
+    margin: auto;
+}
+
+.innerContainer {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding: 32px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(212, 212, 212);
+}
+
+.innerContainer h1 {
+    text-align: center;
+    color: rgb(153, 45, 211);
+    margin: 0;
+}
+
+.subSection {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.subSection .title {
+    font-weight: bold;
+
+}
+
+.subSection .balance {
+    color: rgb(153, 45, 211);
+    padding-top: 8px;
+}
+
+.income_and_expense {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+    padding-top: 0;
+}
+
+.income_and_expense .box {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(214, 141, 141, 0.333);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0px 0px 10px rgb(168, 168, 168);
+}
+
+.income_and_expense .item {
+    background-color: rgb(247, 247, 246);
+}
+
+.box .title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.box .subTitle {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+.add_transaction {
+    padding: 0px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.add_transaction .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formItem {
+    padding-bottom: 24px;
+}
+
+.formItem label {
+    display: block;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.formItem input {
+    width: 100%;
+    height: 24px;
+}
+
+.add_transaction button {
+    background-color: rgb(153, 45, 211);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid rgb(153, 45, 211);
+}
+
+.add_transaction button:hover {
+    background-color: white;
+    color: rgb(153, 45, 211);
+    border: 1px solid rgb(153, 45, 211);
+    cursor: pointer;
+}
+
+
+.history .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.history p{
+    padding-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #f0f4f8;
+    font-size: 16px;
+    color: #333;
+}
+
+table button {
+    background: #f44336;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+input {
+    border-radius: 8px;
+    padding: 5px;
+}

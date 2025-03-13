@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="innerContainer">
+            <h1>Expense Tracker</h1>
+            <div class="subSection">
+                <p class="title">Your Balance</p>
+                <p class="balance" id="curr_balance">₹0.00</p>
+            </div>
+            <div class="income_and_expense">
+                <div class="box item">
+                    <p class="title">Income</p>
+                    <p class="subTitle" id="curr_income">₹0.00</p>
+                </div>
+                <div class="box">
+                    <p class="title">Expense</p>
+                    <p class="subTitle" id="curr_expense">₹0.00</p>
+                </div>
+            </div>
+            <div class="add_transaction">
+                <p class="title">Add Transaction</p>
+                <form id="add">
+                    <div class="formItem">
+                        <label for="fdescription">Description</label>
+                        <input type="text" id="fdescription" placeholder="Enter description" required>
+                    </div>
+                    <div class="formItem">
+                        <label for="famount">Amount (negative=expense, positive=income)</label>
+                        <input type="number" id="famount" step="0.01" placeholder="Enter amount" required>
+                    </div>
+                    <button type="submit">Add Transaction</button>
+                </form>
+            </div>
+            <div class="history">
+                <p class="title">Transaction History</p>
+                <table id="history_data">
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount (₹)</th>
+                    <th>Action</th>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
