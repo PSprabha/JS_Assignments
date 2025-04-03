@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#addTask {
+    background-color: blue;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn {
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
